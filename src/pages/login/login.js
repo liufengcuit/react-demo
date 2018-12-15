@@ -3,7 +3,7 @@ import { Button } from 'antd'
 
 class Login extends React.Component {
     login = () => {
-        this.props.history.push('/index')
+        this.props.history.push('/dashboard')
     }
     render() {
         return (
